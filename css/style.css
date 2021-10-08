@@ -13,6 +13,7 @@ html[data-theme='dark'] {
     --primary-text-color: #FFFFFF;
     --icons-color: #A0A0A0;
     --accent-color: #8774E1;
+    --elements-background-color: #212121;
 }
 
 html[data-theme='clear'] {
@@ -29,6 +30,9 @@ main {
     display: flex;
 }
 
+
+/* PLACE YPUR SECTION CODE HERE */
+
 .chat-deatil {
     max-width: 80%;
     height: 100vh;
@@ -39,6 +43,7 @@ main {
 .chat-header {
     background: var(--elements-background-color);
     display: flex;
+    align-items: center;
     padding: 10px 0;
     font-size: 20px;
 }
@@ -77,10 +82,29 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--icons-color);
 }
 
 .icon:hover {
     background: #cfcfcf;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.chat-message {
+    max-width: 300px;
+    background: #252525;
+}
+
+.chat-container {
+    max-height: 90vh;
+    margin: 0px;
+    padding: 20px 0%;
+    box-sizing: border-box;
+}
+
+.chat-messages {
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding: 10px 10%;
 }
