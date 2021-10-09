@@ -18,7 +18,7 @@ html[data-theme='dark'] {
     --bg-received-msgs: #FFFFFF;
 }
 
-html[data-theme='clear'] {
+html[data-theme='light'] {
     --primary-color: rgba(212, 210, 153, 1);
     --gradient-color: rgba(130, 165, 123, 1);
     --secondary-color: #212121;
@@ -36,12 +36,16 @@ main {
 
 
 /* PLACE YPUR SECTION CODE HERE */
-
+.chat-menu {
+    width: 20vw;
+    height: 100vh;
+    background: #00C73E;
+}
 
 /* ------END CODE ------------- */
 
 .chat-deatil {
-    max-width: 80%;
+    max-width: 80vw;
     height: 100vh;
     background: var(--primary-color);
     background: linear-gradient(45deg, var(--primary-color) 0%, var(--gradient-color) 50%, var(--primary-color));

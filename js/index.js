@@ -1,1 +1,1 @@
-document.documentElement.setAttribute("data-theme", "clear")
+document.documentElement.setAttribute("data-theme", "light")
