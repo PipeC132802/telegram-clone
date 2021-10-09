@@ -36,11 +36,13 @@ main {
 
 
 /* PLACE YPUR SECTION CODE HERE */
+
 .chat-menu {
     width: 20vw;
     height: 100vh;
     background: #00C73E;
 }
+
 
 /* ------END CODE ------------- */
 
@@ -141,14 +143,6 @@ main {
 }
 
 
-/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
-
-.chat-messages::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color);
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-
 /* Cambiamos el fondo cuando esté en active */
 
 .chat-messages::-webkit-scrollbar-thumb:active {
@@ -186,6 +180,7 @@ main {
     margin-left: auto;
     background-color: var(--bg-send-msgs);
     color: var(--primary-text-color);
+    border-right: 0px;
 }
 
 .msg-send::before {
@@ -198,23 +193,26 @@ main {
     bottom: -24px;
     right: -10px;
     transform: rotate(45deg);
+    border-radius: 10px;
 }
 
 .msg-received {
     background: var(--elements-background-color);
     color: var(--primary-text-color);
+    border-left: 0px;
 }
 
 .msg-received::before {
-    border: 25px solid var(--bg-received-msgs);
+    border: 20px solid var(--bg-received-msgs);
     content: '';
     border-left-color: transparent;
     border-bottom-color: transparent;
     border-right-color: transparent;
     position: absolute;
-    bottom: -24px;
-    left: -17px;
+    bottom: -20px;
+    left: -10px;
     transform: rotate(-45deg);
+    border-radius: 10px;
 }
 
 .time-msg-received {
