@@ -198,14 +198,14 @@ main {
 }
 
 .msg-send::before {
-    border: 25px solid var(--bg-send-msgs);
+    border: 20px solid var(--bg-send-msgs);
     content: '';
     border-left-color: transparent;
     border-bottom-color: transparent;
     border-right-color: transparent;
     position: absolute;
-    bottom: -24px;
-    right: -10px;
+    bottom: -20px;
+    right: -8px;
     transform: rotate(45deg);
     border-radius: 10px;
 }
@@ -224,7 +224,7 @@ main {
     border-right-color: transparent;
     position: absolute;
     bottom: -20px;
-    left: -10px;
+    left: -8px;
     transform: rotate(-45deg);
     border-radius: 10px;
 }
