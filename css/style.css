@@ -40,10 +40,9 @@ main {
 .chat-menu {
     width: 20vw;
     height: 100vh;
-    background: #00C73E;
+    background: var(--elements-background-color);
 }
 
-<<<<<<< HEAD
 .menu-header {
     background: var(--elements-background-color);
     display: flex;
@@ -85,8 +84,11 @@ main {
     border-style: hidden;
     
 }
-=======
->>>>>>> 11b20319a2de320254d7ccfef426dce5e998f54d
+
+.chat-box {
+    display: flex;
+    background-color: yellowgreen;
+}
 
 /* ------END CODE ------------- */
 
@@ -278,60 +280,10 @@ main {
     margin-bottom: 5px;
 }
 
-<<<<<<< HEAD
 /* Resoluciones */
 
 @media (min-width: 1400px) {
     main {
         justify-content: center;
     }
-=======
-.input-elements {
-    display: flex;
-    align-items: center;
-    padding: 10px 20%;
-}
-
-.icon-input {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--icons-color);
-    margin: 0px 10px;
-    cursor: pointer;
-}
-
-.input-container {
-    background-color: white;
-    width: 100%;
-    padding: 10px 0px;
-    border-radius: 15px;
-    display: flex;
-}
-
-#input-message {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 6px;
-}
-
-#voice {
-    box-sizing: border-box;
-    height: 60px;
-    width: 60px;
-}
-
-#voice:hover {
-    background-color: rgb(48, 163, 230);
-    color: white;
-}
-
-.inside-input:hover {
-    color: rgb(48, 163, 230);
->>>>>>> 11b20319a2de320254d7ccfef426dce5e998f54d
 }
