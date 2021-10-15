@@ -83,8 +83,8 @@ main {
     border-style: hidden;
 }
 
-.chats-box{
-    display: ;
+.chats-box {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -102,7 +102,10 @@ main {
     background: rgb(221, 221, 221);
 }
 
+
 /* ESTO DE AQUÍ ARRIBA ESTÁ BIEN*/
+
+
 /* END CODE LEO*/
 
 .chat-deatil {
@@ -188,9 +191,7 @@ main {
     margin-right: 6px;
     flex: 1;
     font-size: 15px;
-    height: 78%;
-    flex-grow: 2;
-    background-color: #252525;
+    flex-grow: 3;
 }
 
 .chat-messages:hover {
@@ -512,16 +513,17 @@ main {
 
 .chat-container {
     margin: 0px;
-    padding: 10px 0px;
+    padding: 10px 0px 65px 0px;
     height: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .chat-messages {
     overflow-y: hidden;
     padding: 10px 20%;
     margin-right: 6px;
-    flex: 1;
     font-size: 15px;
     height: 78%;
 }
@@ -634,5 +636,19 @@ main {
 @media (min-width: 1400px) {
     main {
         justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .chat-deatil {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+    .chat-messages,
+    .input-elements {
+        padding: 0px 5%;
+        margin-bottom: 5px;
     }
 }
