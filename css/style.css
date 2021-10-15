@@ -37,6 +37,8 @@ main {
 
 /* PLACE YPUR SECTION CODE HERE */
 
+/* Search and options */
+
 .chat-menu {
     width: 20vw;
     height: 100vh;
@@ -85,7 +87,9 @@ main {
     
 }
 
-.chat-box {
+/* Chat boxes */
+
+.chats-box {
     display: flex;
     background-color: yellowgreen;
 }
